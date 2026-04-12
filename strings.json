@@ -5,8 +5,8 @@
   },
   "strings": {
     "already_registered": {
-      "en": "You are already registered. No further action is required.",
-      "id": "Kamu sudah terdaftar. Tidak ada tindakan lebih lanjut yang diperlukan."
+      "en": "You are already registered, no further action is required.",
+      "id": "Kamu sudah terdaftar, tidak ada tindakan lebih lanjut yang diperlukan."
     },
     "registration_complete": {
       "en": "**Registration Complete**\n-# You received a small bonus to get started:",
@@ -26,7 +26,7 @@
     },
     "me_top": {
       "en": "You are in $var[#top] place",
-      "id": "Kamu berada di peringkat $replaceText[$replaceText[$replaceText[$replaceText[$var[#top];st;];nd;];rd;];th;]"
+      "id": "Kamu berada di peringkat ke-$replaceText[$replaceText[$replaceText[$replaceText[$var[#top];st;];nd;];rd;];th;]"
     },
     "me_point": {
       "en": "You need $numberSeparator[$sub[$var[cap];$var[xp]];$json[sep]] points to level up",
