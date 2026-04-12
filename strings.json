@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "default_lang": "en",
+    "available_langs": ["en", "id"]
+  },
+  "strings": {
+    "already_registered": {
+      "en": "You are already registered. No further action is required.",
+      "id": "Kamu sudah terdaftar. Tidak ada tindakan lebih lanjut yang diperlukan."
+    },
+    "registration_complete": {
+      "en": "**Registration Complete**
+-# You received a small bonus to get started:",
+      "id": "**Pendaftaran Berhasil**
+-# Kamu menerima bonus kecil untuk memulai:"
+    },
+    "access_denied": {
+      "en": "**Access Denied**
+-# Your account has been flagged for potential bot activity. If you believe this is a mistake, please contact <@782922849169178657>",
+      "id": "**Akses Ditolak**
+-# Akunmu ditandai karena terindikasi aktivitas bot. Jika kamu yakin ini adalah kekeliruan, bisa hubungi <@782922849169178657>"
+    },
+    "not_registered": {
+      "en": "You are not registered, type `register` to continue.",
+      "id": "Kamu belum terdaftar, ketik `register` untuk melanjutkan."
+    },
+    "cooldown": {
+      "en": "You are on cooldown, retry <t:$sum[$getTimestamp;$getCooldown[global]]:R>.",
+      "id": "Kamu sedang cooldown, coba lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R>."
+    },
+    "me_top": {
+      "en": "You are in $var[#top] place",
+      "id": "Kamu berada di peringkat $replaceText[$replaceText[$replaceText[$replaceText[$var[#top];st;];nd;];rd;];th;]"
+    },
+    "me_point": {
+      "en": "You need $numberSeparator[$sub[$var[cap];$var[xp]];$json[sep]] points to level up",
+      "id": "Kamu butuh $numberSeparator[$sub[$var[cap];$var[xp]];$json[sep]] poin untuk naik level"
+    }
+  }
+}
