@@ -9,16 +9,12 @@
       "id": "Kamu sudah terdaftar. Tidak ada tindakan lebih lanjut yang diperlukan."
     },
     "registration_complete": {
-      "en": "**Registration Complete**
--# You received a small bonus to get started:",
-      "id": "**Pendaftaran Berhasil**
--# Kamu menerima bonus kecil untuk memulai:"
+      "en": "**Registration Complete**\n-# You received a small bonus to get started:",
+      "id": "**Pendaftaran Berhasil**\n-# Kamu menerima bonus kecil untuk memulai:"
     },
     "access_denied": {
-      "en": "**Access Denied**
--# Your account has been flagged for potential bot activity. If you believe this is a mistake, please contact <@782922849169178657>",
-      "id": "**Akses Ditolak**
--# Akunmu ditandai karena terindikasi aktivitas bot. Jika kamu yakin ini adalah kekeliruan, bisa hubungi <@782922849169178657>"
+      "en": "**Access Denied**\n-# Your account has been flagged for potential bot activity. If you believe this is a mistake, please contact <@782922849169178657>",
+      "id": "**Akses Ditolak**\n-# Akunmu ditandai karena terindikasi aktivitas bot. Jika kamu yakin ini adalah kekeliruan, bisa hubungi <@782922849169178657>"
     },
     "not_registered": {
       "en": "You are not registered, type `register` to continue.",
