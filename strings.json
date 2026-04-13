@@ -26,19 +26,19 @@
     },
     "cooldown_daily": {
       "en": "You have already claimed your daily, come back <t:$var[timestampCd]:R> for the next one.",
-      "id": "Kamu sudah mengklaim hadiah harian, kembali lagi <t:$var[timestampCd]:R> untuk hadiah berikutnya."
+      "id": "Kamu sudah mengklaim hadiah harian, kembali lagi <t:$var[timestampCd]:R> untuk berikutnya."
     },
     "cooldown_hourly": {
       "en": "You have already claimed your hourly, come back <t:$sum[$getTimestamp;$getCooldown[global]]:R> for the next one.",
-      "id": "Kamu sudah mengklaim hadiah per jam, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> untuk hadiah berikutnya."
+      "id": "Kamu sudah mengklaim hadiah per jam, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> untuk berikutnya."
     },
     "daily": {
       "en": "**Daily Reward**\n-# $if[$var[streak]>1]You are on a **$numberSeparator[$var[streak];$json[sep]]**-day streak! You $elseYou checked in and $endifreceived:",
-      "id": "**Hadiah Harian**\n-# $if[$var[streak]>1]**$numberSeparator[$var[streak];$json[sep]]** hari berturut-turut! Kamu $elseKamu berhasil check-in dan $endifmenerima:"
+      "id": "**Hadiah Harian**\n-# $if[$var[streak]>1]**$numberSeparator[$var[streak];$json[sep]]** hari berturut-turut! Kamu $elseKamu telah cek masuk dan $endifmenerima:"
     },
     "hourly": {
       "en": "**Hourly Reward**\n-# You checked in and received:",
-      "id": "**Hadiah Per Jam**\n-# Kamu berhasil check-in dan menerima:"
+      "id": "**Hadiah Per Jam**\n-# Kamu telah cek masuk dan menerima:"
     },
     "streak_ended": {
       "en": "**Oops, Your Streak Ended**\n-# You missed your daily for **$numberSeparator[$var[forgot];$json[sep]]** days and lost your **$numberSeparator[$var[streak];$json[sep]]**-day streak",
