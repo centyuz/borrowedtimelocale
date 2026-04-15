@@ -34,19 +34,19 @@
     },
     "cooldown_leaderboard": {
       "en": "Leaderboard updated recently, retry later.",
-      "id": "Papan peringkat baru aja diperbarui, coba lagi nanti."
+      "id": "Papan peringkat baru aja di-update, coba lagi nanti."
     },
     "cooldown_daily": {
       "en": "You have already claimed your daily, come back <t:$var[timestampCd]:R> for the next one.",
-      "id": "Kamu udah klaim hadiah harian, kembali lagi <t:$var[timestampCd]:R> buat berikutnya."
+      "id": "Kamu udah klaim hadiah harian, kembali lagi <t:$var[timestampCd]:R> buat klaim berikutnya."
     },
     "cooldown_hourly": {
       "en": "You have already claimed your hourly, come back <t:$sum[$getTimestamp;$getCooldown[global]]:R> for the next one.",
-      "id": "Kamu udah klaim hadiah per jam, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> buat berikutnya."
+      "id": "Kamu udah klaim hadiah per jam, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> buat klaim berikutnya."
     },
     "cooldown_weekly": {
       "en": "You have already claimed your weekly, come back <t:$sum[$getTimestamp;$getCooldown[global]]:R> for the next one.",
-      "id": "Kamu udah klaim hadiah mingguan, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> buat berikutnya."
+      "id": "Kamu udah klaim hadiah mingguan, kembali lagi <t:$sum[$getTimestamp;$getCooldown[global]]:R> buat klaim berikutnya."
     },
     "daily": {
       "en": "**Daily Reward**\n-# $if[$var[streak]>1]You are on a **$numberSeparator[$var[streak];$json[sep]]**-day streak! You $elseYou checked in and $endifreceived:",
@@ -69,8 +69,8 @@
       "id": "Kamu ada di peringkat ke-$replaceText[$replaceText[$replaceText[$replaceText[$var[#top];st;];nd;];rd;];th;]"
     },
     "me_point": {
-      "en": "You need $numberSeparator[$sub[$var[cap];$var[xp]];$json[sep]] points to level up",
-      "id": "Kamu butuh $numberSeparator[$sub[$var[cap];$var[xp]];$json[sep]] poin buat naik level"
+      "en": "You need $numberSeparator[$var[pts-];$json[sep]] points to level up",
+      "id": "Kamu butuh $numberSeparator[$var[pts-];$json[sep]] poin buat naik level"
     },
     "setting_updated": {
       "en": "Setting has been updated.",
